@@ -1,0 +1,33 @@
+{
+    "name": "socialiteproviders/surfconext",
+    "description": "SURFconext OAuth2 Provider for Laravel Socialite",
+    "keywords": [
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite",
+        "surfconext"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jim Borst",
+            "email": "jim@blueberry.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\SURFconext\\": ""
+        }
+    },
+    "support": {
+        "issues": "https://github.com/socialiteproviders/providers/issues",
+        "source": "https://github.com/socialiteproviders/providers",
+        "docs": "https://socialiteproviders.com/surfconext"
+    }
+}
